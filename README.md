@@ -14,6 +14,7 @@ Project for <a href="https://kylebradbury.github.io/ids705/index.html"> IDS 705:
 
 ---
 
+**Merge Architecture's detailed results locate at <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/tree/main/30_results'> 30_results directory</a>. <br />
 **Pre-inject Architecture's detailed results locate at https://github.com/wkhalil/Image-Caption/tree/main/test_results**
 
 ### References
