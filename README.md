@@ -3,8 +3,10 @@ Final Project for <a href="https://kylebradbury.github.io/ids705/index.html"> ID
 
 ### Contents
 - [Image-Caption](#image-caption)
-    + [Abstract](#abstract)
     + [References](#references)
+    + [Abstract](#abstract)
+    + [Architecture Framework](#architecture-framework)
+    + [Hyperparameter Tuning](#hyperparameter-tuning)
     + [Before training](#before-training)
     + [Preprocess](#preprocess)
     + [Training Process](#training-process)
@@ -12,20 +14,28 @@ Final Project for <a href="https://kylebradbury.github.io/ids705/index.html"> ID
     + [Testing Process](#testing-process)
 
 ---
-
-### Abstract
-Blind and visually impaired people (BVIP) have consistently expressed their frustration on the lack of accessibility to visual content via social media. The goal of this project is to build high-performance encoder-decoder image captioning models using Pre-inject Architecture and Merge Architecture to assist BVIP in comprehending the message and social context of the images. The two image encoders we decided to implement were VGG and ResNet, and the language model we decided to implement was LSTM. Our experiment results showed that Pre-Inject Architecture outperformed the Merge Architecture by a large margin. In addition, the total training duration for Pre-inject Architecture was approximately 13 times higher than the Merge Architecture.
-
-
-**Merge Architecture's detailed results locate at <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/tree/main/30_results'> 30_results directory</a>. <br />
-Pre-inject Architecture's detailed results locate at https://github.com/wkhalil/Image-Caption/tree/main/test_results**
-
 ### References
 *Reference for merge architecture and training code: <a href="machinelearningmastery.com/develop-a-deep-learning-caption-generation-model-in-python/">How to Develop a Deep Learning Photo Caption Generator from Scratch</a>. <br />
 Reference for pre-inject architecture and training code: <a href="https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning">a-PyTorch-Tutorial-to-Image-Captioning</a>. <br />
 Reference Paper <a href="https://arxiv.org/pdf/1502.03044.pdf">Show, Attend and Tell</a> <br />
 Data comes from: <a href="https://www.kaggle.com/adityajn105/flickr8k?select=Images">Flickr 8k Dataset</a> <br />*
 
+### Abstract
+Blind and visually impaired people (BVIP) have consistently expressed their frustration on the lack of accessibility to visual content via social media. The goal of this project is to build high-performance encoder-decoder image captioning models using Pre-inject Architecture and Merge Architecture to assist BVIP in comprehending the message and social context of the images. The two image encoders we decided to implement were VGG and ResNet, and the language model we decided to implement was LSTM. Our experiment results showed that Pre-Inject Architecture outperformed the Merge Architecture by a large margin. In addition, the total training duration for Pre-inject Architecture was approximately 13 times higher than the Merge Architecture.
+
+### Architecture Framework
+
+#### Merge Architecture
+*<a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/RESNET(152).ipynb'> ResNet (152)</a> <br />
+<a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/RESNET.ipynb'> ResNet (50)</a> <br />
+<a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/VGG.ipynb'> VGG16</a> <br />*
+
+#### Pre-inject Architecture
+*<a href=https://github.com/DeanHuang-Git/IDS705_Image_Captioning/tree/main/10_code/pre-inject> ResNet (101)</a> <br />*
+
+### Hyperparameter Tuning 
+**Merge Architecture's detailed results locate at <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/tree/main/30_results'> 30_results directory</a>. <br />
+Pre-inject Architecture's detailed results locate at https://github.com/wkhalil/Image-Caption/tree/main/test_results**
 
 ---
 ### Before training
