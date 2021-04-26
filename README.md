@@ -46,7 +46,9 @@ Pre-inject Architecture's detailed results locate at https://github.com/wkhalil/
 ```
 $ git clone git@github.com:DeanHuang-Git/IDS705_Image_Captioning.git
 ```
-2. before running the files below, make sure the data is downloaded and saved in the right path.
+2. make sure to download data in the right level of directory
+'../Flickr8k_Dataset/Images'
+3. before running the files below, make sure all the paths are correct.
 
    *<a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/RESNET(152).ipynb'> ResNet (152)</a> <br />
    <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/RESNET.ipynb'> ResNet (50)</a> <br />
