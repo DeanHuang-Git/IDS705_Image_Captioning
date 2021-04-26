@@ -15,6 +15,7 @@ Project for <a href="https://kylebradbury.github.io/ids705/index.html"> IDS 705:
 ---
 
 **Pre-Inject Architecture's detailed results locate at https://github.com/wkhalil/Image-Caption**
+** Merge Architecture's detailed results locate at https://github.com/DeanHuang-Git/IDS705_Image_Captioning/tree/main/30_results/Merge%20Architecture%20Model%20Results**
 
 ### References
 *Reference for network framework and training code: <a href="https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning">a-PyTorch-Tutorial-to-Image-Captioning</a>. <br />
