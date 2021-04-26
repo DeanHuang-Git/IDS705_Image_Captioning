@@ -88,13 +88,13 @@ Another one is training based on current best model (**default, obtain best mode
 $ python train.py
 ```
 ---
-### Evaluation metrics
+#### Evaluation metrics
 first install <a href="https://github.com/salaniz/pycocoevalcap"> pycocoevalcap <a/> for CIDER, SPICE metrics.(Problems still exist for SPICE after installing following <a href="https://github.com/jiasenlu/coco-caption">instructions<a/>, and others also met <a href="https://github.com/jiasenlu/NeuralBabyTalk/issues/9">the same problem<a/>)
 ```
 $ python eval.py
 ```
 ---
-### Testing Process
+#### Testing Process
 All generated captions would be stored under test_results directory. <br />
 Three choices:
 1. If randomly generated one caption from all inputs
