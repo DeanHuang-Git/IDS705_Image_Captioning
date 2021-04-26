@@ -20,7 +20,7 @@ Project for <a href="https://kylebradbury.github.io/ids705/index.html"> IDS 705:
 
 ### References
 *Reference for merge architecture and training code: <a href="machinelearningmastery.com/develop-a-deep-learning-caption-generation-model-in-python/">How to Develop a Deep Learning Photo Caption Generator from Scratch</a>. <br />
-*Reference for network framework and training code: <a href="https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning">a-PyTorch-Tutorial-to-Image-Captioning</a>. <br />
+Reference for network framework and training code: <a href="https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning">a-PyTorch-Tutorial-to-Image-Captioning</a>. <br />
 Reference Paper <a href="https://arxiv.org/pdf/1502.03044.pdf">Show, Attend and Tell</a> <br />
 Data comes from: <a href="https://www.kaggle.com/adityajn105/flickr8k?select=Images">Flickr 8k Dataset</a> <br />*
 
