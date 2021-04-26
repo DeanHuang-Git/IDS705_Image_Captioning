@@ -1,9 +1,6 @@
 # Comparison of Pre-Inject Architecture and Merge Architecture for Image Captioning
 Final Project for <a href="https://kylebradbury.github.io/ids705/index.html"> IDS 705: Principles of Machine Learning <a/> <br />
 
-### Abstarct
-Blind and visually impaired people (BVIP) have consistently expressed their frustration on the lack of accessibility to visual content via social media. The goal of this project is to build high-performance encoder-decoder image captioning models using Pre-inject Architecture and Merge Architecture to assist BVIP in comprehending the message and social context of the images. The two image encoders we decided to implement were VGG and ResNet, and the language model we decided to implement was LSTM. Our experiment results showed that Pre-Inject Architecture outperformed the Merge Architecture by a large margin. In addition, the total training duration for Pre-inject Architecture was approximately 13 times higher than the Merge Architecture.
-
 ### Contents
 - [Image-Caption](#image-caption)
     + [References](#references)
@@ -16,6 +13,8 @@ Blind and visually impaired people (BVIP) have consistently expressed their frus
 ---
 
 ### Abstract
+Blind and visually impaired people (BVIP) have consistently expressed their frustration on the lack of accessibility to visual content via social media. The goal of this project is to build high-performance encoder-decoder image captioning models using Pre-inject Architecture and Merge Architecture to assist BVIP in comprehending the message and social context of the images. The two image encoders we decided to implement were VGG and ResNet, and the language model we decided to implement was LSTM. Our experiment results showed that Pre-Inject Architecture outperformed the Merge Architecture by a large margin. In addition, the total training duration for Pre-inject Architecture was approximately 13 times higher than the Merge Architecture.
+
 
 **Merge Architecture's detailed results locate at <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/tree/main/30_results'> 30_results directory</a>. <br />
 Pre-inject Architecture's detailed results locate at https://github.com/wkhalil/Image-Caption/tree/main/test_results**
