@@ -14,7 +14,7 @@ Project for <a href="https://kylebradbury.github.io/ids705/index.html"> IDS 705:
 
 ---
 
-**Merge Architecture's detailed results locate at https://github.com/DeanHuang-Git/IDS705_Image_Captioning/tree/main/30_results/Merge%20Architecture%20Model%20Results**
+**Pre-inject Architecture's detailed results locate at https://github.com/wkhalil/Image-Caption/tree/main/test_results**
 
 ### References
 *Reference for merge architecture and training code: <a href="machinelearningmastery.com/develop-a-deep-learning-caption-generation-model-in-python/">How to Develop a Deep Learning Photo Caption Generator from Scratch</a>. <br />
