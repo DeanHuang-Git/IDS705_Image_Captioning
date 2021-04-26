@@ -48,7 +48,7 @@ $ git clone git@github.com:DeanHuang-Git/IDS705_Image_Captioning.git
 ```
 2. make sure to download data in the right level of directory
 
-'../Flickr8k_Dataset/Images'
+   '../Flickr8k_Dataset/Images'
 
 3. before running the files below, make sure all the paths in the code are correct.
 
