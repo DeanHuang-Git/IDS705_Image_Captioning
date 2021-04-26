@@ -1,19 +1,19 @@
 # Comparison of Pre-Inject Architecture and Merge Architecture for Image Captioning
 Final Project for <a href="https://kylebradbury.github.io/ids705/index.html"> IDS 705: Principles of Machine Learning <a/> <br />
 
-### Contents
-- [Image-Caption](#image-caption)
-    + [References](#references)
-    + [Abstract](#abstract)
-    + [Architecture Framework](#architecture-framework)
-    + [Hyperparameter Tuning](#hyperparameter-tuning)
-    + [Before training](#before-training)
-    + [Preprocess](#preprocess)
-    + [Training Process](#training-process)
-    + [Evaluation metrics](#evaluation-metrics)
-    + [Testing Process](#testing-process)
+## Contents
+   - [References](#references)
+   - [Abstract](#abstract)
+   - [Architecture Framework](#architecture-framework)
+   - [Hyperparameter Tuning](#hyperparameter-tuning)
+   - [Instructions for Running Merge Architecture]
+   - [Instructions for Running Pre-inject Architecture]
+      + [Before training](#before-training)
+      + [Preprocess](#preprocess)
+      + [Training Process](#training-process)
+      + [Evaluation metrics](#evaluation-metrics)
+      + [Testing Process](#testing-process)
 
----
 ### References
 *Reference for merge architecture and training code: <a href="machinelearningmastery.com/develop-a-deep-learning-caption-generation-model-in-python/">How to Develop a Deep Learning Photo Caption Generator from Scratch</a>. <br />
 Reference for pre-inject architecture and training code: <a href="https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning">a-PyTorch-Tutorial-to-Image-Captioning</a>. <br />
@@ -37,8 +37,19 @@ Blind and visually impaired people (BVIP) have consistently expressed their frus
 **Merge Architecture's detailed results locate at <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/tree/main/30_results'> 30_results directory</a>. <br />
 Pre-inject Architecture's detailed results locate at https://github.com/wkhalil/Image-Caption/tree/main/test_results**
 
----
-### Before training
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Instructions for Running Merge Architecture
+1. clone the current repository to servers
+```
+$ git clone git@github.com:DeanHuang-Git/IDS705_Image_Captioning.git
+```
+2. before running the files below, make sure the data is downloaded and saved in the right path.
+*<a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/RESNET(152).ipynb'> ResNet (152)</a> <br />
+<a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/RESNET.ipynb'> ResNet (50)</a> <br />
+<a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/VGG.ipynb'> VGG16</a> <br />*
+
+### Instructions for Running Pre-inject Architecture
+#### Before Training
 1. clone the current repository to servers
 ```
 $ git clone git@github.com:wkhalil/Image-Caption.git
@@ -59,13 +70,13 @@ directory necessary before training:
 └── requirements.txt
 ```
 ---
-### Preprocess
+#### Preprocess
 ```
 $ python create_input_files.py
 ```
 (only once for generating intermediate data files)
 ---
-### Training Process
+#### Training Process
 1. There are two choices for training, if training without previous checkpoints, **set checkpoints=None in config.py**. <br />
 Another one is training based on current best model (**default, obtain best model: <a href="https://drive.google.com/drive/folders/1E3W1wKbhV20FyBfRfTXfRcjAVjoIQavp?usp=sharing">latest model checkpoints<a/>**).
 2. run the train.py
