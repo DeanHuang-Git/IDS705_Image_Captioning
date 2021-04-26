@@ -6,8 +6,8 @@ Final Project for <a href="https://kylebradbury.github.io/ids705/index.html"> ID
    - [Abstract](#abstract)
    - [Architecture Framework](#architecture-framework)
    - [Hyperparameter Tuning](#hyperparameter-tuning)
-   - [Instructions for Running Merge Architecture](#merge-architecture-instruction)
-   - [Instructions for Running Pre-inject Architecture](#pre-inject-architecture-instruction)
+   - [Instructions for Running Merge Architecture](#instructions-for-running-merge-architecture)
+   - [Instructions for Running Pre-inject Architecture](#instructions-for-running-preinject-architecture)
       + [Before training](#before-training)
       + [Preprocess](#preprocess)
       + [Training Process](#training-process)
@@ -52,7 +52,7 @@ $ git clone git@github.com:DeanHuang-Git/IDS705_Image_Captioning.git
 <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/RESNET.ipynb'> ResNet (50)</a> <br />
 <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/VGG.ipynb'> VGG16</a> <br />*
 
-### Instructions for Running Pre-inject Architecture
+### Instructions for Running Preinject Architecture
 #### Before Training
 1. clone the current repository to servers
 ```
