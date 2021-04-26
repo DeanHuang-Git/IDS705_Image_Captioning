@@ -48,9 +48,9 @@ $ git clone git@github.com:DeanHuang-Git/IDS705_Image_Captioning.git
 ```
 2. before running the files below, make sure the data is downloaded and saved in the right path.
 
-   <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/RESNET(152).ipynb'> ResNet (152)</a> <br />
+   *<a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/RESNET(152).ipynb'> ResNet (152)</a> <br />
    <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/RESNET.ipynb'> ResNet (50)</a> <br />
-   <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/VGG.ipynb'> VGG16</a> <br />
+   <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/VGG.ipynb'> VGG16</a> <br />*
 
 ### Instructions for Running Preinject Architecture
 #### Before Training
