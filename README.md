@@ -38,7 +38,7 @@ Blind and visually impaired people (BVIP) have consistently expressed their frus
 ### Hyperparameter Tuning 
 
 **Merge Architecture's detailed results locate at <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/tree/main/30_results'> 30_results directory</a>. <br />
-Pre-inject Architecture's detailed results locate at https://github.com/wkhalil/Image-Caption/tree/main/test_results**
+Pre-inject Architecture's <a href="https://drive.google.com/drive/folders/1E3W1wKbhV20FyBfRfTXfRcjAVjoIQavp?usp=sharing">best performing model<a/> and <a href="https://github.com/wkhalil/Image-Caption/tree/main/test_results">detailed results<a/>.**
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Instructions for Running Merge Architecture
