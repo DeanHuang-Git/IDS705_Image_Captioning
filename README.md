@@ -6,8 +6,8 @@ Final Project for <a href="https://kylebradbury.github.io/ids705/index.html"> ID
    - [Abstract](#abstract)
    - [Architecture Framework](#architecture-framework)
    - [Hyperparameter Tuning](#hyperparameter-tuning)
-   - [Instructions for Running Merge Architecture]
-   - [Instructions for Running Pre-inject Architecture]
+   - [Instructions for Running Merge Architecture](#merge-architecture-instruction)
+   - [Instructions for Running Pre-inject Architecture](#pre-inject-architecture-instruction)
       + [Before training](#before-training)
       + [Preprocess](#preprocess)
       + [Training Process](#training-process)
@@ -26,14 +26,17 @@ Blind and visually impaired people (BVIP) have consistently expressed their frus
 ### Architecture Framework
 
 #### Merge Architecture
+
 *<a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/RESNET(152).ipynb'> ResNet (152)</a> <br />
 <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/RESNET.ipynb'> ResNet (50)</a> <br />
 <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/VGG.ipynb'> VGG16</a> <br />*
 
 #### Pre-inject Architecture
+
 *<a href=https://github.com/DeanHuang-Git/IDS705_Image_Captioning/tree/main/10_code/pre-inject> ResNet (101)</a> <br />*
 
 ### Hyperparameter Tuning 
+
 **Merge Architecture's detailed results locate at <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/tree/main/30_results'> 30_results directory</a>. <br />
 Pre-inject Architecture's detailed results locate at https://github.com/wkhalil/Image-Caption/tree/main/test_results**
 
@@ -44,6 +47,7 @@ Pre-inject Architecture's detailed results locate at https://github.com/wkhalil/
 $ git clone git@github.com:DeanHuang-Git/IDS705_Image_Captioning.git
 ```
 2. before running the files below, make sure the data is downloaded and saved in the right path.
+
 *<a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/RESNET(152).ipynb'> ResNet (152)</a> <br />
 <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/RESNET.ipynb'> ResNet (50)</a> <br />
 <a href='https://github.com/DeanHuang-Git/IDS705_Image_Captioning/blob/main/10_code/VGG.ipynb'> VGG16</a> <br />*
