@@ -1,6 +1,4 @@
-# IDS705_Image_Captioning
-
-# Image-Caption
+# Comparison of Pre-Inject Architecture and Merge Architecture for Image Captioning
 Project for <a href="https://kylebradbury.github.io/ids705/index.html"> IDS 705: Principles of Machine Learning <a/> <br />
 
 ### Abstarct
